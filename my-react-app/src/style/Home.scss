@@ -1,0 +1,66 @@
+.Home {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.filter-input {
+    ::-webkit-input-placeholder {
+       color:  white;
+    }
+    ::-moz-placeholder {
+       color: white;
+    }
+    :-ms-input-placeholder {  
+       color: white; 
+    }
+    &:focus {
+      outline: 0 transparent solid;
+      ::-webkit-input-placeholder {
+       color: rgba(0,0,0,0.7);
+      }
+      ::-moz-placeholder {
+         color: rgba(0,0,0,0.7);  
+      }
+      :-ms-input-placeholder {  
+         color: rgba(0,0,0,0.7);  
+      }
+    }
+  }
+  
+  .filter-input {
+    background: rgba(255, 255, 255, 0.123);
+    border: 0 solid;
+    border-radius: 27px;
+    border-bottom: 5px solid rgba(rgb(0, 0, 0), .5);
+    color: rgb(0, 0, 0);
+    display: block;
+    margin: 20px 0px 0px 5px;
+    font-size: 20px;
+    padding: .5rem;
+    transition: 250ms background ease-in;
+    width: 100%;
+    text-align: center;
+    &:focus {
+      background: white;
+      color: black;
+      transition: 250ms background ease-in;
+    }
+  }
+
+  .Home button {
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 5px;
+    background: linear-gradient(rgb(185, 185, 185), rgb(154, 201, 255));
+    &:hover {
+        background: white;
+        color: black;
+        transition: 250ms background ease-in;
+      }
+  }
+
+  li {
+    list-style-type: none;
+  }

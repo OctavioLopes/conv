@@ -1,0 +1,14 @@
+/* Set the background for the entire site */
+html {
+  background: linear-gradient(rgb(22, 45, 70), rgb(154, 201, 255));
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 100%; /* Set the height of the html element */
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+  width: 98%;
+}
